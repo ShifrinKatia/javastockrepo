@@ -4,31 +4,6 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
-		<servlet-name>KsStock</servlet-name>
-		<servlet-class>com.myorgP.javacoursePackage.KsStockServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>KsStock</servlet-name>
-		<url-pattern>/ksstock</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<servlet-name>MathServletEx3</servlet-name>
-		<servlet-class>com.myorgP.javacoursePackage.MathServletEx3</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>MathServletEx3</servlet-name>
-		<url-pattern>/mathservletex3</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>StockDetailsServlet</servlet-name>
-		<servlet-class>com.myorgP.javacoursePackage.StockDetailsServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>StockDetailsServlet</servlet-name>
-		<url-pattern>/stockdetails</url-pattern>
-	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>PortfolioServlet</servlet-name>
